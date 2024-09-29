@@ -718,6 +718,7 @@ const storyPages = {
     text: "You unlock the true potential of the Crown of Ages, a power based on wisdom rather than control. You leave the labyrinth as its first true victor, equipped with knowledge and the tools for further discovery. The labyrinth no longer holds sway over you, and you are free to chart your own destiny.",
     choices: []
 
+}
 };
 
 function renderPage(pageNumber) {
