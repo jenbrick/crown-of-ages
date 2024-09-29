@@ -602,6 +602,268 @@ const storyPages = {
             { text: "Try to use the disc to summon the Crown of Ages.", nextPage: 88 }
         ]
     },
+ 76: {
+    text: "You open the fragile box and inside you find a single gemstone, pulsing faintly with light. It seems to resonate with the labyrinth’s energy.",
+    choices: [
+        { text: "Take the gemstone and leave the room.", nextPage: 58 },
+        { text: "Leave the gemstone, fearing it may be cursed.", nextPage: 44 },
+        { text: "Search for more clues related to the gemstone.", nextPage: 59 }
+    ]
+},
+ 77: {
+    text: "You continue searching the room and eventually find a small silver key hidden under a loose floor tile.",
+    choices: [
+        { text: "Use the silver key to unlock the box.", nextPage: 76 },
+        { text: "Keep the key for later and leave the room.", nextPage: 44 },
+        { text: "Search the room further for any more hidden objects.", nextPage: 63 }
+    ]
+},
+ 78: {
+    text: "You step back and watch as the shadowy figure rises from the pool. It doesn’t seem hostile but rather curious about your presence. It beckons you to come closer, and a strange calm settles over you.",
+    choices: [
+        { text: "Approach the figure cautiously and see what it wants.", nextPage: 89 },
+        { text: "Leave the room, feeling uneasy about the figure.", nextPage: 45 },
+        { text: "Attempt to speak to the figure from a distance.", nextPage: 90 }
+    ]
+},
+ 79: {
+    text: "You reach into the pool, and the moment your hand touches the water, the figure grabs you and pulls you under. Everything goes dark, and you feel yourself sinking.",
+    choices: [
+        { text: "Ending 14: The pool consumes you, and your body becomes part of the labyrinth. Your adventure ends in darkness.", nextPage: 'end_14' }
+    ]
+},
+ 80: {
+    text: "You pull the lever, and the pool begins to drain slowly. As the water disappears, a staircase leading downward is revealed.",
+    choices: [
+        { text: "Descend the staircase to see where it leads.", nextPage: 91 },
+        { text: "Leave the room now that the pool has been drained.", nextPage: 45 },
+        { text: "Search the now-empty pool for hidden objects.", nextPage: 92 }
+    ]
+},
+81: {
+    text: "You search the walls for additional levers and find another one hidden behind a pillar. This lever looks different, with strange markings etched into it.",
+    choices: [
+        { text: "Pull the second lever to see what happens.", nextPage: 93 },
+        { text: "Ignore the second lever and leave the room.", nextPage: 45 },
+        { text: "Try to decipher the markings before doing anything.", nextPage: 94 }
+    ]
+},
+82: {
+    text: "With the knowledge of the Incantation of Control or the power of the golden disc, you speak the ancient words and focus on reshaping the labyrinth. The walls shift and open up, revealing a hidden chamber that wasn’t there before.",
+    choices: [
+        { text: "Enter the newly revealed chamber.", nextPage: 95 },
+        { text: "Use the incantation to reshape another part of the labyrinth.", nextPage: 96 },
+        { text: "Leave the labyrinth, feeling the power is too great to wield.", nextPage: 'end_15' }
+    ]
+},
+83: {
+    text: "You hold the gem up to the door, and as the symbols on it glow, the door unlocks with a soft click. Beyond it, you see a long hallway leading deeper into the labyrinth.",
+    choices: [
+        { text: "Enter the hallway and see where it leads.", nextPage: 97 },
+        { text: "Leave the passage now that you’ve opened the door.", nextPage: 67 },
+        { text: "Search the area around the door before proceeding.", nextPage: 84 }
+    ]
+},
+84: {
+    text: "You search the area around the door and discover a small, hidden keyhole that wasn’t visible before. It looks like it could fit a very specific key.",
+    choices: [
+        { text: "Use the silver key (if you found it earlier) to unlock the keyhole.", nextPage: 98 },
+        { text: "Try to force the door open without the key.", nextPage: 99 },
+        { text: "Return to the main passage and leave the hidden area.", nextPage: 67 }
+    ]
+},
+85: {
+    text: "Using the power of the Crown of Ages, you command the serpent to stop its attack. Amazingly, the serpent obeys and coils around the chest, guarding it at your will.",
+    choices: [
+        { text: "Use the serpent to protect the treasure and leave.", nextPage: 43 },
+        { text: "Take the treasure with the serpent’s help and leave.", nextPage: 73 },
+        { text: "Explore deeper into the labyrinth, feeling more powerful.", nextPage: 100 }
+    ]
+},
+86: {
+    text: "Despite the immense power you feel from the Crown of Ages, you decide that it is too dangerous to wield. You leave the room, hoping that you made the right decision.",
+    choices: [
+        { text: "Exit the labyrinth now that you know its secrets.", nextPage: 'end_16' },
+        { text: "Continue exploring, unsure if there are other treasures.", nextPage: 32 },
+        { text: "Return to examine the room further before leaving.", nextPage: 87 }
+    ]
+},
+87: {
+    text: "You take a moment to examine the room surrounding the crown. As you do, you find an inscription carved into the floor: 'The true power is not in the crown but in the heart.'",
+    choices: [
+        { text: "Leave the crown behind and explore elsewhere.", nextPage: 32 },
+        { text: "Take the crown anyway, despite the warning.", nextPage: 72 },
+        { text: "Search for more inscriptions or hidden meanings.", nextPage: 57 }
+    ]
+},
+88: {
+    text: "You use the power of the golden disc to summon the Crown of Ages to your location. The crown appears before you, glowing with ancient energy.",
+    choices: [
+        { text: "Take the crown and use its power.", nextPage: 72 },
+        { text: "Leave the crown alone, knowing its danger.", nextPage: 86 },
+        { text: "Try to combine the power of the disc and the crown.", nextPage: 85 }
+    ]
+},
+89: {
+    text: "You cautiously approach the shadowy figure. It speaks to you in a low voice: 'Only those with the key can leave this place unharmed.'",
+    choices: [
+        { text: "Ask the figure what key it is referring to.", nextPage: 90 },
+        { text: "Leave the room and search for the key.", nextPage: 45 },
+        { text: "Attack the figure, suspecting it of treachery.", nextPage: 26 }
+    ]
+},
+90: {
+    text: "The figure tells you that the Key of Eternity can unlock any door in the labyrinth, including the one that leads to the final chamber where the Crown of Ages lies. You must find it.",
+    choices: [
+        { text: "Search the labyrinth for the Key of Eternity.", nextPage: 91 },
+        { text: "Ask the figure for more information on the key’s location.", nextPage: 55 },
+        { text: "Leave the figure and continue exploring.", nextPage: 45 }
+    ]
+},
+91: {
+    text: "You descend the newly revealed staircase and find yourself in a deep, forgotten part of the labyrinth. Strange symbols line the walls, and at the far end, you see a pedestal with a key resting on top.",
+    choices: [
+        { text: "Take the key, believing it to be the Key of Eternity.", nextPage: 92 },
+        { text: "Search the room for traps before taking the key.", nextPage: 61 },
+        { text: "Leave the key alone and return to the upper levels.", nextPage: 45 }
+    ]
+},
+92: {
+    text: "You search the drained pool and find a hidden compartment at the bottom. Inside is an ancient, rusted key that may unlock one of the labyrinth’s deeper secrets.",
+    choices: [
+        { text: "Take the key and leave the pool area.", nextPage: 45 },
+        { text: "Search the pool for more hidden compartments.", nextPage: 94 },
+        { text: "Leave the key behind, unsure of its use.", nextPage: 45 }
+    ]
+},
+93: {
+    text: "You pull the second lever, and a portion of the wall shifts to reveal a hidden passage. The air is cold and stale as you step closer to investigate.",
+    choices: [
+        { text: "Enter the hidden passage.", nextPage: 95 },
+        { text: "Ignore the passage and return to the main chamber.", nextPage: 45 },
+        { text: "Search the area around the passage for traps.", nextPage: 61 }
+    ]
+},
+94: {
+    text: "You study the strange markings around the lever and realize they are a warning: 'Only the patient will pass unharmed.' You must be cautious.",
+    choices: [
+        { text: "Pull the lever slowly and carefully.", nextPage: 93 },
+        { text: "Ignore the warning and pull the lever quickly.", nextPage: 80 },
+        { text: "Leave the lever alone and return to the main room.", nextPage: 45 }
+    ]
+},
+95: {
+    text: "The hidden passage leads to a chamber filled with ancient relics and inscriptions. In the center is a pedestal with a glowing gemstone. This could be important, but the air feels thick with danger.",
+    choices: [
+        { text: "Take the gemstone and leave.", nextPage: 96 },
+        { text: "Inspect the pedestal for any further inscriptions or mechanisms.", nextPage: 97 },
+        { text: "Leave the gemstone and exit the hidden chamber, feeling that something is wrong.", nextPage: 67 }
+    ]
+},
+96: {
+    text: "You lift the glowing gemstone from the pedestal, and as soon as it is in your hands, the walls of the labyrinth begin to shift. New paths open, and others close. The labyrinth seems to be reacting to the stone’s removal, and you sense it has great power.",
+    choices: [
+        { text: "Continue forward through the newly opened path.", nextPage: 98 },
+        { text: "Use the gemstone to try and control the labyrinth.", nextPage: 99 },
+        { text: "Place the gemstone back on the pedestal, fearing the labyrinth’s response.", nextPage: 67 }
+    ]
+},
+97: {
+    text: "Upon closer inspection of the pedestal, you find a hidden inscription that reads: 'The one who holds the light shall guide the way.' The inscription confirms that the gemstone is connected to navigation within the labyrinth.",
+    choices: [
+        { text: "Take the gemstone and leave.", nextPage: 96 },
+        { text: "Leave the gemstone and continue exploring the chamber.", nextPage: 67 },
+        { text: "Search the chamber for other hidden mechanisms before leaving.", nextPage: 67 }
+    ]
+},
+98: {
+    text: "The path revealed by the labyrinth leads you into a large, brightly lit room filled with mirrors reflecting the light from your gemstone. In the center of the room, you see a statue of a woman holding a crown, and the air is thick with anticipation.",
+    choices: [
+        { text: "Approach the statue to examine the crown.", nextPage: 100 },
+        { text: "Use the gemstone to see if it reveals any hidden passages in the mirrors.", nextPage: 101 },
+        { text: "Leave the room, sensing that the crown and mirrors are part of a trap.", nextPage: 86 }
+    ]
+},
+99: {
+    text: "You focus your energy on the gemstone, and the labyrinth begins to shift around you. Walls move, floors rise, and the structure bends to your will. However, as you continue reshaping the maze, you sense the power of the labyrinth resisting.",
+    choices: [
+        { text: "Keep pushing, trying to exert full control over the labyrinth.", nextPage: 102 },
+        { text: "Stop and carefully navigate the paths already opened.", nextPage: 67 },
+        { text: "Drop the gemstone, realizing the danger of overreaching.", nextPage: 103 }
+    ]
+},
+100: {
+    text: "As you approach the statue, you realize that the crown it holds is more than just a decoration—it is the Crown of Ages. The statue’s eyes seem to follow your every move, and you feel a sense of foreboding.",
+    choices: [
+        { text: "Take the crown from the statue.", nextPage: 104 },
+        { text: "Examine the statue closely for any traps or mechanisms.", nextPage: 105 },
+        { text: "Leave the crown and exit the room.", nextPage: 86 }
+    ]
+},
+101: {
+    text: "You hold the gemstone up, and its light reflects off the mirrors. Suddenly, hidden doorways and passages appear in the reflections that weren’t visible before. The gemstone reveals hidden truths in the labyrinth.",
+    choices: [
+        { text: "Enter one of the hidden passages revealed in the mirrors.", nextPage: 106 },
+        { text: "Keep the gemstone and leave the mirror room to explore further.", nextPage: 67 },
+        { text: "Leave the mirror room, avoiding any further interaction with the mirrors.", nextPage: 86 }
+    ]
+},
+102: {
+    text: "As you try to force more changes with the gemstone, the labyrinth begins to crack and shift violently. You realize too late that you’ve pushed it too far.",
+    choices: [
+        { text: "Ending 17: The labyrinth collapses under the strain of your control, and you are buried in the rubble. The labyrinth is destroyed, but you perish along with it.", nextPage: 'end_17' }
+    ]
+},
+103: {
+    text: "You drop the gemstone, and the shifting stops immediately. The labyrinth settles back into place, but the path ahead is now closed off. Without the gemstone’s power, you’re trapped in this section of the labyrinth.",
+    choices: [
+        { text: "Ending 18: Without the gemstone’s power, you are trapped in the labyrinth. Though you avoided the collapse, you now have no way out and must wander the labyrinth until the end of your days.", nextPage: 'end_18' }
+    ]
+},
+104: {
+    text: "You take the Crown of Ages from the statue’s hands. As soon as you touch it, the room begins to shake, and the statue’s eyes glow a bright red. The labyrinth itself seems to react violently to your action.",
+    choices: [
+        { text: "Run from the room with the crown.", nextPage: 107 },
+        { text: "Place the crown back on the statue, hoping to calm the labyrinth.", nextPage: 108 },
+        { text: "Use the gemstone to try and counteract the effects of the crown’s power.", nextPage: 109 }
+    ]
+},
+105: {
+    text: "You closely inspect the statue and find tiny, nearly invisible wires running from the base of the Crown of Ages to the ground. It’s clear this is part of a trap designed to trigger if the crown is removed.",
+    choices: [
+        { text: "Disarm the trap and take the crown carefully.", nextPage: 104 },
+        { text: "Leave the crown where it is, deciding it’s too risky to take.", nextPage: 86 },
+        { text: "Try to find another way to deactivate the trap.", nextPage: 109 }
+    ]
+},
+106: {
+    text: "You step through one of the hidden passages revealed by the mirrors. The walls are adorned with intricate carvings, and at the end, you find a small chest resting on a pedestal. There is an inscription: 'Only those who see the unseen may claim what lies within.'",
+    choices: [
+        { text: "Use the gemstone to try and unlock the chest.", nextPage: 110 },
+        { text: "Leave the chest, fearing a trap.", nextPage: 67 },
+        { text: "Return to the mirror room and explore another hidden passage.", nextPage: 101 }
+    ]
+},
+107: {
+    text: "You sprint out of the room with the Crown of Ages in hand, but the entire labyrinth begins to collapse behind you. The floor trembles and cracks, and the walls begin to fall.",
+    choices: [
+        { text: "Ending 19: You escape the collapsing labyrinth with the Crown of Ages, but the labyrinth is destroyed. Though you possess the crown, its true power remains a mystery as you flee for your life.", nextPage: 'end_19' }
+    ]
+},
+108: {
+    text: "You quickly place the crown back on the statue, but the shaking does not stop. The labyrinth is collapsing regardless of your efforts.",
+    choices: [
+        { text: "Ending 20: The labyrinth collapses around you as you try to fix your mistake. Though you attempted to return the crown, it is too late. You are buried beneath the rubble, and the Crown of Ages is lost once again.", nextPage: 'end_20' }
+    ]
+},
+109: {
+    text: "You raise the gemstone, and its light begins to dull the red glow of the statue’s eyes. The shaking ceases, and the trap is deactivated. You now have the Crown of Ages, and the danger seems to have passed.",
+    choices: [
+        { text: "Take the crown and leave the room.", nextPage: 107 },
+        { text: "Leave the crown behind and exit, unsure if you can control its power.", nextPage: 86 },
+        { text: "Use the crown and gemstone together to explore deeper into the labyrinth.", nextPage: 100 }
+    ]
+},
 
     // You can continue adding pages here, following the same structure for each page.
 'end_1': {
