@@ -105,7 +105,6 @@ const storyPages = {
     // Additional endings (ending pages like 'end_2', 'end_3', etc.) will go here
 };
 
-// Function to render the current page
 function renderPage(pageNumber) {
     const page = storyPages[pageNumber];
     const storyDiv = document.getElementById("story");
@@ -123,4 +122,13 @@ function renderPage(pageNumber) {
         const choiceLi = document.createElement("li");
         const choiceBtn = document.createElement("button");
         choiceBtn.innerText = choice.text;
-        choiceBtn.className
+        choiceBtn.className = "choice-btn";
+        choiceBtn.onclick = () => renderPage(choice.nextPage); // Load the next page
+
+        choiceLi.appendChild(choiceBtn);
+        choicesUl.appendChild(choiceLi);
+    });
+}
+
+// Start the game at page 1
+renderPage(1);
