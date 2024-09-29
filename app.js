@@ -48,8 +48,7 @@ const storyPages = {
             { text: "Turn back and try another path.", nextPage: 2 }
         ]
     },
-
-        7: {
+    7: {
         text: "The right path is eerily silent, but you sense that something is watching you from the shadows. As you continue forward, the tunnel begins to twist unnaturally.",
         choices: [
             { text: "Continue moving forward despite the unsettling feeling.", nextPage: 15 },
@@ -97,8 +96,7 @@ const storyPages = {
             { text: "Leave the key and swim back to where you started.", nextPage: 24 }
         ]
     },
-
-     13: {
+    13: {
         text: "You approach the figure by the fire pit, who slowly stands up. It’s an old man with strange markings on his face. He seems to recognize you.",
         choices: [
             { text: "Ask the old man for help navigating the labyrinth.", nextPage: 25 },
@@ -236,375 +234,374 @@ const storyPages = {
             { text: "Examine the walls for more clues before choosing.", nextPage: 46 }
         ]
     },
- 31: {
-    text: "The staircase spirals down into the darkness, and you feel a growing sense of dread. At the bottom, you find an ancient altar, with a book resting on it.",
-    choices: [
-        { text: "Open the book and read the ancient text.", nextPage: 47 },
-        { text: "Take the book without reading it.", nextPage: 48 },
-        { text: "Leave the book alone and ascend the staircase again.", nextPage: 18 }
-    ]
-},
-32: {
-    text: "The tunnel ahead is lined with torches, leading deeper into the labyrinth. As you walk, you feel a sense of déjà vu, as if you’ve been here before. A distant growl echoes from the shadows.",
-    choices: [
-        { text: "Press on despite the growl.", nextPage: 49 },
-        { text: "Stop and search the walls for any hidden exits.", nextPage: 50 },
-        { text: "Turn back and find another path.", nextPage: 21 }
-    ]
-},
-33: {
-    text: "You search the area around the collapsed bridge and find a hidden inscription on the wall: 'He who holds the Key may pass unharmed.'",
-    choices: [
-        { text: "Continue forward, knowing you have the key.", nextPage: 23 },
-        { text: "Return to the stream and reconsider your options.", nextPage: 5 },
-        { text: "Turn back and try another path from the courtyard.", nextPage: 2 }
-    ]
-},
-34: {
-    text: "The hidden chamber is filled with ancient relics and treasures. In the center, you see a pedestal with a large crystal glowing faintly. This must be important.",
-    choices: [
-        { text: "Take the crystal.", nextPage: 51 },
-        { text: "Search the room for traps or other hidden secrets.", nextPage: 52 },
-        { text: "Leave the chamber without touching anything.", nextPage: 23 }
-    ]
-},
-35: {
-    text: "You swim as fast as you can, but the force in the water grabs you and pulls you under.",
-    choices: [
-        { text: "Ending 6: You are pulled beneath the water, never to surface again. The labyrinth claims another adventurer.", nextPage: 'end_6' }
-    ]
-},
-36: {
-    text: "You dive under the water and see a strange creature swimming toward you. It glows with an eerie light but seems harmless.",
-    choices: [
-        { text: "Try to communicate with the creature.", nextPage: 53 },
-        { text: "Swim away quickly and return to shore.", nextPage: 5 },
-        { text: "Follow the creature deeper into the water.", nextPage: 54 }
-    ]
-},
-37: {
-    text: "You offer the old man a small trinket in exchange for more information. He smiles and gives you a cryptic hint: 'Beware of those who walk in shadows—they are not what they seem.'",
-    choices: [
-        { text: "Thank the old man and follow his directions.", nextPage: 30 },
-        { text: "Leave without another word and take a different path.", nextPage: 14 },
-        { text: "Ask the old man for more clues before leaving.", nextPage: 55 }
-    ]
-},
-38: {
-    text: "You take the relic from the pedestal, but as soon as you touch it, the eyes on the walls begin to glow and the ground shakes.",
-    choices: [
-        { text: "Ending 7: The labyrinth was a trap, and you are consumed by its magic. You are now part of the labyrinth forever.", nextPage: 'end_7' }
-    ]
-},
-39: {
-    text: "Upon examining the pedestal, you discover an inscription: 'The relic is a key, but only if taken with care.' You now know how to safely remove it.",
-    choices: [
-        { text: "Take the relic carefully, following the instructions.", nextPage: 56 },
-        { text: "Leave the relic behind and exit the tunnel.", nextPage: 14 },
-        { text: "Search the walls for more clues about the relic.", nextPage: 57 }
-    ]
-},
-
-40: {
-    text: "You reach into the brazier and grab the glowing object. It’s hot, but you manage to retrieve it—a small, glowing gem.",
-    choices: [
-        { text: "Take the gem with you and continue.", nextPage: 58 },
-        { text: "Leave the gem in the brazier and exit the tunnel.", nextPage: 28 },
-        { text: "Examine the gem for any hidden markings or clues.", nextPage: 59 }
-    ]
-},
-41: {
-    text: "You try to extinguish the flames, but they flare up even more, consuming everything in the tunnel.",
-    choices: [
-        { text: "Ending 8: The flames overwhelm you, and you perish in the heat of the labyrinth.", nextPage: 'end_8' }
-    ]
-},
-42: {
-    text: "You charge at the snake with your weapon, but it is faster than you anticipated. The snake strikes.",
-    choices: [
-        { text: "Ending 9: You are bitten by the serpent, and its venom quickly overcomes you. Your adventure ends here.", nextPage: 'end_9' }
-    ]
-},
-43: {
-    text: "You throw a rock to distract the snake, and it moves away from the chest, giving you time to open it.",
-    choices: [
-        { text: "Open the chest and take the treasure inside.", nextPage: 60 },
-        { text: "Leave the chest unopened and retreat carefully.", nextPage: 29 },
-        { text: "Search the chest for traps before opening it.", nextPage: 61 }
-    ]
-},
-44: {
-    text: "You enter the door with the sun symbol and find yourself in a bright, warm chamber. A massive golden disc hangs on the far wall, reflecting light.",
-    choices: [
-        { text: "Approach the golden disc.", nextPage: 62 },
-        { text: "Search the room for other objects.", nextPage: 63 },
-        { text: "Leave the room and try the other door.", nextPage: 45 }
-    ]
-},
-45: {
-    text: "The moon symbol door leads to a cold, dimly lit chamber. In the center is a pool of dark water, with ripples gently moving across the surface.",
-    choices: [
-        { text: "Step closer to the pool to investigate.", nextPage: 64 },
-        { text: "Leave the room and try the sun door instead.", nextPage: 44 },
-        { text: "Search the room for any hidden mechanisms.", nextPage: 65 }
-    ]
-},
-46: {
-    text: "You examine the walls and discover another inscription hidden in the carvings: 'Only in balance may the Crown be claimed.'\nClue: Balance is key to claiming the Crown of Ages.",
-    choices: [
-        { text: "Enter the sun door, believing balance is important.", nextPage: 44 },
-        { text: "Enter the moon door, seeking balance in the darkness.", nextPage: 45 },
-        { text: "Leave the passage and reconsider your options.", nextPage: 30 }
-    ]
-},
-47: {
-    text: "You open the book, and its pages glow with a strange light. The text reveals a powerful incantation that controls the labyrinth.\nClue: The Incantation of Control can influence the labyrinth’s paths.",
-    choices: [
-        { text: "Memorize the incantation and close the book.", nextPage: 66 },
-        { text: "Take the book with you and leave the altar.", nextPage: 31 },
-        { text: "Leave the book alone and ascend the staircase.", nextPage: 18 }
-    ]
-},
-48: {
-    text: "You take the book, sensing its power, but without reading it. The room begins to tremble as you disturb its resting place.",
-    choices: [
-        { text: "Run back up the staircase to escape.", nextPage: 31 },
-        { text: "Open the book and read it now.", nextPage: 47 },
-        { text: "Drop the book and leave quickly.", nextPage: 31 }
-    ]
-},
-49: {
-    text: "You move forward despite the growl, but the darkness closes in around you. Suddenly, a massive beast emerges from the shadows.",
-    choices: [
-        { text: "Ending 10: The beast overwhelms you, and the labyrinth claims yet another victim.", nextPage: 'end_10' }
-    ]
-},
-storyPages[50] = {
-    text: "You pause and examine the walls around you carefully. After some searching, you find a small crack in the stone, just large enough to reveal another hidden passage.",
-    choices: [
-        { text: "Squeeze through the crack and enter the hidden passage.", nextPage: 67 },
-        { text: "Ignore the passage and continue down the main tunnel.", nextPage: 32 },
-        { text: "Return to where you came from, unsure of the new path.", nextPage: 21 }
-    ]
-},
-
-51: {
-    text: "You lift the glowing crystal from the pedestal, feeling its energy course through you. The chamber rumbles, but nothing else happens.",
-    choices: [
-        { text: "Leave the chamber with the crystal in hand.", nextPage: 23 },
-        { text: "Inspect the pedestal further for any hidden mechanisms.", nextPage: 52 },
-        { text: "Place the crystal back down, fearing a trap.", nextPage: 34 }
-    ]
-},
-
-52: {
-    text: "You carefully examine the pedestal and surrounding area. After some time, you find a small trigger mechanism at the base, deactivating a trap that would have sealed the chamber.",
-    choices: [
-        { text: "Take the crystal now that the trap is deactivated.", nextPage: 51 },
-        { text: "Leave the crystal alone and exit the chamber.", nextPage: 34 },
-        { text: "Search the walls for any hidden doors.", nextPage: 67 }
-    ]
-},
-
-53: {
-    text: "You reach out, trying to communicate with the glowing underwater creature. It seems to respond to your presence, guiding you deeper into the water where a hidden passage awaits.",
-    choices: [
-        { text: "Follow the creature into the hidden underwater passage.", nextPage: 54 },
-        { text: "Surface for air and rethink your approach.", nextPage: 5 },
-        { text: "Try to grab the creature, fearing it may be dangerous.", nextPage: 68 }
-    ]
-},
-
-54: {
-    text: "The glowing creature leads you deeper into the water, where you find an air pocket and a hidden treasure room submerged beneath the labyrinth. Gold and jewels are scattered everywhere.",
-    choices: [
-        { text: "Take the treasure and swim back to the surface.", nextPage: 69 },
-        { text: "Search the treasure room for any artifacts.", nextPage: 70 },
-        { text: "Leave the treasure alone, fearing it may be cursed.", nextPage: 5 }
-    ]
-},
-
-55: {
-    text: "You ask the old man for more information, and he warns you: 'The Crown is only for the wise. Those who rush will never leave.'",
-    choices: [
-        { text: "Follow the old man’s directions to the hidden passage.", nextPage: 30 },
-        { text: "Thank him and continue exploring without taking his advice.", nextPage: 14 },
-        { text: "Attack the old man, doubting his trustworthiness.", nextPage: 26 }
-    ]
-},
-
-56: {
-    text: "Using the knowledge from the inscription, you carefully take the relic from the pedestal without triggering any traps. As you hold it, you feel a surge of power. This relic could be key to unlocking deeper secrets.",
-    choices: [
-        { text: "Leave the tunnel with the relic in hand.", nextPage: 23 },
-        { text: "Continue exploring the tunnel, now feeling more confident.", nextPage: 27 },
-        { text: "Search for hidden paths that the relic might reveal.", nextPage: 67 }
-    ]
-},
-
-57: {
-    text: "You carefully inspect the walls surrounding the relic’s pedestal. Faintly, you see another inscription hidden behind the grime: 'Those who seek with open eyes shall pass unseen.'",
-    choices: [
-        { text: "Take the relic carefully and leave.", nextPage: 56 },
-        { text: "Leave the relic and continue down the tunnel.", nextPage: 27 },
-        { text: "Search the tunnel for more hidden inscriptions.", nextPage: 67 }
-    ]
-},
-
-58: {
-    text: "You pocket the glowing gem from the brazier. Its warmth spreads through your body, giving you the strange feeling that it may hold some magical properties.",
-    choices: [
-        { text: "Continue through the tunnel with the gem.", nextPage: 28 },
-        { text: "Try to activate the gem by focusing on it.", nextPage: 71 },
-        { text: "Leave the tunnel, feeling uneasy about the gem’s power.", nextPage: 28 }
-    ]
-},
-
-59: {
-    text: "You examine the gem closely and notice tiny symbols carved into its surface. These markings seem to match those you saw earlier in the labyrinth, suggesting the gem may unlock a specific door.",
-    choices: [
-        { text: "Keep the gem and continue exploring.", nextPage: 28 },
-        { text: "Leave the gem in the brazier and exit.", nextPage: 28 },
-        { text: "Try to decipher the symbols on the gem.", nextPage: 71 }
-    ]
-},
-
-60: {
-    text: "You open the chest, and inside you find a golden crown encrusted with jewels—the Crown of Ages. As soon as you lift it, the serpent stirs, ready to attack.",
-    choices: [
-        { text: "Fight the serpent to escape with the crown.", nextPage: 72 },
-        { text: "Place the crown back in the chest, hoping the serpent will calm.", nextPage: 43 },
-        { text: "Run for your life with the crown.", nextPage: 73 }
-    ]
-},
-
-61: {
-    text: "You examine the chest carefully and find a hidden mechanism at the base. You manage to disable the trap that would have sealed you inside the tunnel. The chest is now safe to open.",
-    choices: [
-        { text: "Open the chest and take the treasure.", nextPage: 60 },
-        { text: "Leave the chest behind and exit the tunnel.", nextPage: 43 },
-        { text: "Search for more traps around the area.", nextPage: 67 }
-    ]
-},
-
-62: {
-    text: "You step closer to the massive golden disc, and it begins to glow, casting a warm light across the room. You notice an inscription: 'To see beyond the light, close your eyes.'",
-    choices: [
-        { text: "Close your eyes as instructed and wait.", nextPage: 74 },
-        { text: "Touch the golden disc.", nextPage: 75 },
-        { text: "Leave the room, feeling unnerved by the disc.", nextPage: 44 }
-    ]
-},
-
-63: {
-    text: "As you search the room, you find a small, locked box hidden behind the golden disc. It looks old and fragile, but it could hold something important.",
-    choices: [
-        { text: "Try to open the box.", nextPage: 76 },
-        { text: "Leave the box alone and exit the room.", nextPage: 44 },
-        { text: "Search the room further for a key to the box.", nextPage: 77 }
-    ]
-},
-
-64: {
-    text: "You step closer to the pool and see your reflection ripple across the surface. As you gaze into the water, something moves beneath it—a shadowy figure emerging.",
-    choices: [
-        { text: "Step back and observe the figure.", nextPage: 78 },
-        { text: "Reach into the pool to touch the figure.", nextPage: 79 },
-        { text: "Flee the room, sensing danger.", nextPage: 45 }
-    ]
-},
-
-65: {
-    text: "You search the walls around the pool and find a small lever hidden behind a stone. It looks like it could drain the pool or reveal a hidden door.",
-    choices: [
-        { text: "Pull the lever and see what happens.", nextPage: 80 },
-        { text: "Ignore the lever and leave the room.", nextPage: 45 },
-        { text: "Search the room for more hidden levers or mechanisms.", nextPage: 81 }
-    ]
-},
-
-66: {
-    text: "You memorize the incantation written in the book. You feel its power echo in your mind, giving you the ability to influence certain parts of the labyrinth.",
-    choices: [
-        { text: "Use the incantation to change the path ahead.", nextPage: 82 },
-        { text: "Leave the book behind and exit the room.", nextPage: 31 },
-        { text: "Take the book with you and continue exploring.", nextPage: 31 }
-    ]
-},
-
-67: {
-    text: "You step into the hidden passage, which is narrow and dark. The air feels heavier here, as if the labyrinth itself is closing in on you. At the end of the passage, you find a strange door with no handle.",
-    choices: [
-        { text: "Use the gem you found to try and unlock the door.", nextPage: 83 },
-        { text: "Search the area for another way through the door.", nextPage: 84 },
-        { text: "Leave the passage and return to the main tunnel.", nextPage: 32 }
-    ]
-},
-
-68: {
-    text: "You reach out and grab the glowing creature. It struggles in your grip, and you realize too late that it was leading you to safety.",
-    choices: [
-        { text: "Ending 11: The creature dissolves in your hands, and the water turns dark. You are pulled under by a powerful current and drown.", nextPage: 'end_11' }
-    ]
-},
-
-69: {
-    text: "You fill your pockets with as much treasure as you can carry and swim back to the surface. The labyrinth’s riches are yours, but you feel a strange weight settle over you.",
-    choices: [
-        { text: "Ending 12: You escape the labyrinth with the treasure, but its curse follows you wherever you go.", nextPage: 'end_12' }
-    ]
-},
-
-70: {
-    text: "As you search the treasure room, you find a small, ornate box. Inside is a golden key.\nClue: The Golden Key may unlock the deepest part of the labyrinth.",
-    choices: [
-        { text: "Take the golden key and leave the treasure behind.", nextPage: 5 },
-        { text: "Take the treasure and the key, and leave.", nextPage: 69 },
-        { text: "Leave everything and swim back to the surface.", nextPage: 5 }
-    ]
-},
-
-71: {
-    text: "You focus on the symbols carved into the gem, and suddenly they rearrange themselves, revealing a hidden word: 'Open.'",
-    choices: [
-        { text: "Use the gem to open the nearest sealed door.", nextPage: 83 },
-        { text: "Pocket the gem and continue exploring.", nextPage: 28 },
-        { text: "Leave the gem behind, fearing its power.", nextPage: 28 }
-    ]
-},
-
-72: {
-    text: "You battle the massive serpent, but its scales are too tough. Just when you think all is lost, the golden crown begins to glow, weakening the serpent’s power.",
-    choices: [
-        { text: "Finish the serpent off and escape with the crown.", nextPage: 73 },
-        { text: "Try to escape without further harm.", nextPage: 43 },
-        { text: "Use the crown’s power to command the serpent.", nextPage: 85 }
-    ]
-},
-
-73: {
-    text: "You run as fast as you can with the Crown of Ages in hand, but the labyrinth begins to shift and close in on you.",
-    choices: [
-        { text: "Ending 13: The labyrinth seals itself, trapping you inside forever with the crown.", nextPage: 'end_13' }
-    ]
-},
-
-74: {
-    text: "You close your eyes as instructed, and suddenly the room around you changes. You are no longer in the bright chamber but standing before the Crown of Ages.",
-    choices: [
-        { text: "Take the crown.", nextPage: 72 },
-        { text: "Leave the crown, fearing its power.", nextPage: 86 },
-        { text: "Examine the room further before taking action.", nextPage: 87 }
-    ]
-},
-75: {
-    text: "You place your hand on the golden disc, and instantly, a surge of energy flows through you. The labyrinth begins to respond to your presence.",
-    choices: [
-        { text: "Use the disc’s power to alter the paths of the labyrinth.", nextPage: 82 },
-        { text: "Remove your hand, feeling the power is too much to control.", nextPage: 44 },
-        { text: "Try to use the disc to summon the Crown of Ages.", nextPage: 88 }
-    ]
-},
+    31: {
+        text: "The staircase spirals down into the darkness, and you feel a growing sense of dread. At the bottom, you find an ancient altar, with a book resting on it.",
+        choices: [
+            { text: "Open the book and read the ancient text.", nextPage: 47 },
+            { text: "Take the book without reading it.", nextPage: 48 },
+            { text: "Leave the book alone and ascend the staircase again.", nextPage: 18 }
+        ]
+    },
+    32: {
+        text: "The tunnel ahead is lined with torches, leading deeper into the labyrinth. As you walk, you feel a sense of déjà vu, as if you’ve been here before. A distant growl echoes from the shadows.",
+        choices: [
+            { text: "Press on despite the growl.", nextPage: 49 },
+            { text: "Stop and search the walls for any hidden exits.", nextPage: 50 },
+            { text: "Turn back and find another path.", nextPage: 21 }
+        ]
+    },
+    33: {
+        text: "You search the area around the collapsed bridge and find a hidden inscription on the wall: 'He who holds the Key may pass unharmed.'",
+        choices: [
+            { text: "Continue forward, knowing you have the key.", nextPage: 23 },
+            { text: "Return to the stream and reconsider your options.", nextPage: 5 },
+            { text: "Turn back and try another path from the courtyard.", nextPage: 2 }
+        ]
+    },
+    34: {
+        text: "The hidden chamber is filled with ancient relics and treasures. In the center, you see a pedestal with a large crystal glowing faintly. This must be important.",
+        choices: [
+            { text: "Take the crystal.", nextPage: 51 },
+            { text: "Search the room for traps or other hidden secrets.", nextPage: 52 },
+            { text: "Leave the chamber without touching anything.", nextPage: 23 }
+        ]
+    },
+    35: {
+        text: "You swim as fast as you can, but the force in the water grabs you and pulls you under.",
+        choices: [
+            { text: "Ending 6: You are pulled beneath the water, never to surface again. The labyrinth claims another adventurer.", nextPage: 'end_6' }
+        ]
+    },
+    36: {
+        text: "You dive under the water and see a strange creature swimming toward you. It glows with an eerie light but seems harmless.",
+        choices: [
+            { text: "Try to communicate with the creature.", nextPage: 53 },
+            { text: "Swim away quickly and return to shore.", nextPage: 5 },
+            { text: "Follow the creature deeper into the water.", nextPage: 54 }
+        ]
+    },
+    37: {
+        text: "You offer the old man a small trinket in exchange for more information. He smiles and gives you a cryptic hint: 'Beware of those who walk in shadows—they are not what they seem.'",
+        choices: [
+            { text: "Thank the old man and follow his directions.", nextPage: 30 },
+            { text: "Leave without another word and take a different path.", nextPage: 14 },
+            { text: "Ask the old man for more clues before leaving.", nextPage: 55 }
+        ]
+    },
+    38: {
+        text: "You take the relic from the pedestal, but as soon as you touch it, the eyes on the walls begin to glow and the ground shakes.",
+        choices: [
+            { text: "Ending 7: The labyrinth was a trap, and you are consumed by its magic. You are now part of the labyrinth forever.", nextPage: 'end_7' }
+        ]
+    },
+    39: {
+        text: "Upon examining the pedestal, you discover an inscription: 'The relic is a key, but only if taken with care.' You now know how to safely remove it.",
+        choices: [
+            { text: "Take the relic carefully, following the instructions.", nextPage: 56 },
+            { text: "Leave the relic behind and exit the tunnel.", nextPage: 14 },
+            { text: "Search the walls for more clues about the relic.", nextPage: 57 }
+        ]
+    },
+    
+    40: {
+        text: "You reach into the brazier and grab the glowing object. It’s hot, but you manage to retrieve it—a small, glowing gem.",
+        choices: [
+            { text: "Take the gem with you and continue.", nextPage: 58 },
+            { text: "Leave the gem in the brazier and exit the tunnel.", nextPage: 28 },
+            { text: "Examine the gem for any hidden markings or clues.", nextPage: 59 }
+        ]
+    },
+    41: {
+        text: "You try to extinguish the flames, but they flare up even more, consuming everything in the tunnel.",
+        choices: [
+            { text: "Ending 8: The flames overwhelm you, and you perish in the heat of the labyrinth.", nextPage: 'end_8' }
+        ]
+    },
+    42: {
+        text: "You charge at the snake with your weapon, but it is faster than you anticipated. The snake strikes.",
+        choices: [
+            { text: "Ending 9: You are bitten by the serpent, and its venom quickly overcomes you. Your adventure ends here.", nextPage: 'end_9' }
+        ]
+    },
+    43: {
+        text: "You throw a rock to distract the snake, and it moves away from the chest, giving you time to open it.",
+        choices: [
+            { text: "Open the chest and take the treasure inside.", nextPage: 60 },
+            { text: "Leave the chest unopened and retreat carefully.", nextPage: 29 },
+            { text: "Search the chest for traps before opening it.", nextPage: 61 }
+        ]
+    },
+    44: {
+        text: "You enter the door with the sun symbol and find yourself in a bright, warm chamber. A massive golden disc hangs on the far wall, reflecting light.",
+        choices: [
+            { text: "Approach the golden disc.", nextPage: 62 },
+            { text: "Search the room for other objects.", nextPage: 63 },
+            { text: "Leave the room and try the other door.", nextPage: 45 }
+        ]
+    },
+    45: {
+        text: "The moon symbol door leads to a cold, dimly lit chamber. In the center is a pool of dark water, with ripples gently moving across the surface.",
+        choices: [
+            { text: "Step closer to the pool to investigate.", nextPage: 64 },
+            { text: "Leave the room and try the sun door instead.", nextPage: 44 },
+            { text: "Search the room for any hidden mechanisms.", nextPage: 65 }
+        ]
+    },
+    46: {
+        text: "You examine the walls and discover another inscription hidden in the carvings: 'Only in balance may the Crown be claimed.'\nClue: Balance is key to claiming the Crown of Ages.",
+        choices: [
+            { text: "Enter the sun door, believing balance is important.", nextPage: 44 },
+            { text: "Enter the moon door, seeking balance in the darkness.", nextPage: 45 },
+            { text: "Leave the passage and reconsider your options.", nextPage: 30 }
+        ]
+    },
+    47: {
+        text: "You open the book, and its pages glow with a strange light. The text reveals a powerful incantation that controls the labyrinth.\nClue: The Incantation of Control can influence the labyrinth’s paths.",
+        choices: [
+            { text: "Memorize the incantation and close the book.", nextPage: 66 },
+            { text: "Take the book with you and leave the altar.", nextPage: 31 },
+            { text: "Leave the book alone and ascend the staircase.", nextPage: 18 }
+        ]
+    },
+    48: {
+        text: "You take the book, sensing its power, but without reading it. The room begins to tremble as you disturb its resting place.",
+        choices: [
+            { text: "Run back up the staircase to escape.", nextPage: 31 },
+            { text: "Open the book and read it now.", nextPage: 47 },
+            { text: "Drop the book and leave quickly.", nextPage: 31 }
+        ]
+    },
+    49: {
+        text: "You move forward despite the growl, but the darkness closes in around you. Suddenly, a massive beast emerges from the shadows.",
+        choices: [
+            { text: "Ending 10: The beast overwhelms you, and the labyrinth claims yet another victim.", nextPage: 'end_10' }
+        ]
+    },
+    50: {
+        text: "You pause and examine the walls around you carefully. After some searching, you find a small crack in the stone, just large enough to reveal another hidden passage.",
+        choices: [
+            { text: "Squeeze through the crack and enter the hidden passage.", nextPage: 67 },
+            { text: "Ignore the passage and continue down the main tunnel.", nextPage: 32 },
+            { text: "Return to where you came from, unsure of the new path.", nextPage: 21 }
+        ]
+    },
+    
+    51: {
+        text: "You lift the glowing crystal from the pedestal, feeling its energy course through you. The chamber rumbles, but nothing else happens.",
+        choices: [
+            { text: "Leave the chamber with the crystal in hand.", nextPage: 23 },
+            { text: "Inspect the pedestal further for any hidden mechanisms.", nextPage: 52 },
+            { text: "Place the crystal back down, fearing a trap.", nextPage: 34 }
+        ]
+    },
+    
+    52: {
+        text: "You carefully examine the pedestal and surrounding area. After some time, you find a small trigger mechanism at the base, deactivating a trap that would have sealed the chamber.",
+        choices: [
+            { text: "Take the crystal now that the trap is deactivated.", nextPage: 51 },
+            { text: "Leave the crystal alone and exit the chamber.", nextPage: 34 },
+            { text: "Search the walls for any hidden doors.", nextPage: 67 }
+        ]
+    },
+    
+    53: {
+        text: "You reach out, trying to communicate with the glowing underwater creature. It seems to respond to your presence, guiding you deeper into the water where a hidden passage awaits.",
+        choices: [
+            { text: "Follow the creature into the hidden underwater passage.", nextPage: 54 },
+            { text: "Surface for air and rethink your approach.", nextPage: 5 },
+            { text: "Try to grab the creature, fearing it may be dangerous.", nextPage: 68 }
+        ]
+    },
+    
+    54: {
+        text: "The glowing creature leads you deeper into the water, where you find an air pocket and a hidden treasure room submerged beneath the labyrinth. Gold and jewels are scattered everywhere.",
+        choices: [
+            { text: "Take the treasure and swim back to the surface.", nextPage: 69 },
+            { text: "Search the treasure room for any artifacts.", nextPage: 70 },
+            { text: "Leave the treasure alone, fearing it may be cursed.", nextPage: 5 }
+        ]
+    },
+         
+    55: {
+        text: "You ask the old man for more information, and he warns you: 'The Crown is only for the wise. Those who rush will never leave.'",
+        choices: [
+            { text: "Follow the old man’s directions to the hidden passage.", nextPage: 30 },
+            { text: "Thank him and continue exploring without taking his advice.", nextPage: 14 },
+            { text: "Attack the old man, doubting his trustworthiness.", nextPage: 26 }
+        ]
+    },
+    56: {
+        text: "Using the knowledge from the inscription, you carefully take the relic from the pedestal without triggering any traps. As you hold it, you feel a surge of power. This relic could be key to unlocking deeper secrets.",
+        choices: [
+            { text: "Leave the tunnel with the relic in hand.", nextPage: 23 },
+            { text: "Continue exploring the tunnel, now feeling more confident.", nextPage: 27 },
+            { text: "Search for hidden paths that the relic might reveal.", nextPage: 67 }
+        ]
+    },
+    
+    57: {
+        text: "You carefully inspect the walls surrounding the relic’s pedestal. Faintly, you see another inscription hidden behind the grime: 'Those who seek with open eyes shall pass unseen.'",
+        choices: [
+            { text: "Take the relic carefully and leave.", nextPage: 56 },
+            { text: "Leave the relic and continue down the tunnel.", nextPage: 27 },
+            { text: "Search the tunnel for more hidden inscriptions.", nextPage: 67 }
+        ]
+    },
+    
+    58: {
+        text: "You pocket the glowing gem from the brazier. Its warmth spreads through your body, giving you the strange feeling that it may hold some magical properties.",
+        choices: [
+            { text: "Continue through the tunnel with the gem.", nextPage: 28 },
+            { text: "Try to activate the gem by focusing on it.", nextPage: 71 },
+            { text: "Leave the tunnel, feeling uneasy about the gem’s power.", nextPage: 28 }
+        ]
+    },
+    
+    59: {
+        text: "You examine the gem closely and notice tiny symbols carved into its surface. These markings seem to match those you saw earlier in the labyrinth, suggesting the gem may unlock a specific door.",
+        choices: [
+            { text: "Keep the gem and continue exploring.", nextPage: 28 },
+            { text: "Leave the gem in the brazier and exit.", nextPage: 28 },
+            { text: "Try to decipher the symbols on the gem.", nextPage: 71 }
+        ]
+    },
+    
+    60: {
+        text: "You open the chest, and inside you find a golden crown encrusted with jewels—the Crown of Ages. As soon as you lift it, the serpent stirs, ready to attack.",
+        choices: [
+            { text: "Fight the serpent to escape with the crown.", nextPage: 72 },
+            { text: "Place the crown back in the chest, hoping the serpent will calm.", nextPage: 43 },
+            { text: "Run for your life with the crown.", nextPage: 73 }
+        ]
+    },
+    
+    61: {
+        text: "You examine the chest carefully and find a hidden mechanism at the base. You manage to disable the trap that would have sealed you inside the tunnel. The chest is now safe to open.",
+        choices: [
+            { text: "Open the chest and take the treasure.", nextPage: 60 },
+            { text: "Leave the chest behind and exit the tunnel.", nextPage: 43 },
+            { text: "Search for more traps around the area.", nextPage: 67 }
+        ]
+    },
+    
+    62: {
+        text: "You step closer to the massive golden disc, and it begins to glow, casting a warm light across the room. You notice an inscription: 'To see beyond the light, close your eyes.'",
+        choices: [
+            { text: "Close your eyes as instructed and wait.", nextPage: 74 },
+            { text: "Touch the golden disc.", nextPage: 75 },
+            { text: "Leave the room, feeling unnerved by the disc.", nextPage: 44 }
+        ]
+    },
+    
+    63: {
+        text: "As you search the room, you find a small, locked box hidden behind the golden disc. It looks old and fragile, but it could hold something important.",
+        choices: [
+            { text: "Try to open the box.", nextPage: 76 },
+            { text: "Leave the box alone and exit the room.", nextPage: 44 },
+            { text: "Search the room further for a key to the box.", nextPage: 77 }
+        ]
+    },
+    
+    64: {
+        text: "You step closer to the pool and see your reflection ripple across the surface. As you gaze into the water, something moves beneath it—a shadowy figure emerging.",
+        choices: [
+            { text: "Step back and observe the figure.", nextPage: 78 },
+            { text: "Reach into the pool to touch the figure.", nextPage: 79 },
+            { text: "Flee the room, sensing danger.", nextPage: 45 }
+        ]
+    },
+    
+    65: {
+        text: "You search the walls around the pool and find a small lever hidden behind a stone. It looks like it could drain the pool or reveal a hidden door.",
+        choices: [
+            { text: "Pull the lever and see what happens.", nextPage: 80 },
+            { text: "Ignore the lever and leave the room.", nextPage: 45 },
+            { text: "Search the room for more hidden levers or mechanisms.", nextPage: 81 }
+        ]
+    },
+    
+    66: {
+        text: "You memorize the incantation written in the book. You feel its power echo in your mind, giving you the ability to influence certain parts of the labyrinth.",
+        choices: [
+            { text: "Use the incantation to change the path ahead.", nextPage: 82 },
+            { text: "Leave the book behind and exit the room.", nextPage: 31 },
+            { text: "Take the book with you and continue exploring.", nextPage: 31 }
+        ]
+    },
+    
+    67: {
+        text: "You step into the hidden passage, which is narrow and dark. The air feels heavier here, as if the labyrinth itself is closing in on you. At the end of the passage, you find a strange door with no handle.",
+        choices: [
+            { text: "Use the gem you found to try and unlock the door.", nextPage: 83 },
+            { text: "Search the area for another way through the door.", nextPage: 84 },
+            { text: "Leave the passage and return to the main tunnel.", nextPage: 32 }
+        ]
+    },
+    
+    68: {
+        text: "You reach out and grab the glowing creature. It struggles in your grip, and you realize too late that it was leading you to safety.",
+        choices: [
+            { text: "Ending 11: The creature dissolves in your hands, and the water turns dark. You are pulled under by a powerful current and drown.", nextPage: 'end_11' }
+        ]
+    },
+    
+    69: {
+        text: "You fill your pockets with as much treasure as you can carry and swim back to the surface. The labyrinth’s riches are yours, but you feel a strange weight settle over you.",
+        choices: [
+            { text: "Ending 12: You escape the labyrinth with the treasure, but its curse follows you wherever you go.", nextPage: 'end_12' }
+        ]
+    },
+    
+    70: {
+        text: "As you search the treasure room, you find a small, ornate box. Inside is a golden key.\nClue: The Golden Key may unlock the deepest part of the labyrinth.",
+        choices: [
+            { text: "Take the golden key and leave the treasure behind.", nextPage: 5 },
+            { text: "Take the treasure and the key, and leave.", nextPage: 69 },
+            { text: "Leave everything and swim back to the surface.", nextPage: 5 }
+        ]
+    },
+    
+    71: {
+        text: "You focus on the symbols carved into the gem, and suddenly they rearrange themselves, revealing a hidden word: 'Open.'",
+        choices: [
+            { text: "Use the gem to open the nearest sealed door.", nextPage: 83 },
+            { text: "Pocket the gem and continue exploring.", nextPage: 28 },
+            { text: "Leave the gem behind, fearing its power.", nextPage: 28 }
+        ]
+    },
+    
+    72: {
+        text: "You battle the massive serpent, but its scales are too tough. Just when you think all is lost, the golden crown begins to glow, weakening the serpent’s power.",
+        choices: [
+            { text: "Finish the serpent off and escape with the crown.", nextPage: 73 },
+            { text: "Try to escape without further harm.", nextPage: 43 },
+            { text: "Use the crown’s power to command the serpent.", nextPage: 85 }
+        ]
+    },
+    
+    73: {
+        text: "You run as fast as you can with the Crown of Ages in hand, but the labyrinth begins to shift and close in on you.",
+        choices: [
+            { text: "Ending 13: The labyrinth seals itself, trapping you inside forever with the crown.", nextPage: 'end_13' }
+        ]
+    },
+    
+    74: {
+        text: "You close your eyes as instructed, and suddenly the room around you changes. You are no longer in the bright chamber but standing before the Crown of Ages.",
+        choices: [
+            { text: "Take the crown.", nextPage: 72 },
+            { text: "Leave the crown, fearing its power.", nextPage: 86 },
+            { text: "Examine the room further before taking action.", nextPage: 87 }
+        ]
+    },
+    75: {
+        text: "You place your hand on the golden disc, and instantly, a surge of energy flows through you. The labyrinth begins to respond to your presence.",
+        choices: [
+            { text: "Use the disc’s power to alter the paths of the labyrinth.", nextPage: 82 },
+            { text: "Remove your hand, feeling the power is too much to control.", nextPage: 44 },
+            { text: "Try to use the disc to summon the Crown of Ages.", nextPage: 88 }
+        ]
+    },
 
     // You can continue adding pages here, following the same structure for each page.
 'end_1': {
