@@ -864,8 +864,71 @@ const storyPages = {
         { text: "Use the crown and gemstone together to explore deeper into the labyrinth.", nextPage: 100 }
     ]
 },
+110: {
+    text: "The gemstone’s light reveals a hidden lock on the chest. With a soft click, the chest opens, revealing the Key of Eternity, an ancient key that is said to unlock the final chamber of the labyrinth.",
+    choices: [
+        { text: "Take the key and leave the hidden passage.", nextPage: 67 },
+        { text: "Use the key immediately to unlock another door.", nextPage: 111 },
+        { text: "Search the area for any other hidden treasures before leaving.", nextPage: 67 }
+    ]
+},
 
-    // You can continue adding pages here, following the same structure for each page.
+111: {
+    text: "With the Key of Eternity in hand, you approach the final door. The key fits perfectly, and the door swings open to reveal the heart of the labyrinth. In the center of the room, bathed in golden light, sits the Crown of Ages—the true source of power in the labyrinth.",
+    choices: [
+        { text: "Take the crown, believing it to be the ultimate prize.", nextPage: 104 },
+        { text: "Leave the crown behind, knowing that such power is too dangerous.", nextPage: 86 },
+        { text: "Use the gemstone to alter the chamber before taking the crown.", nextPage: 100 }
+    ]
+},
+
+112: {
+    text: "You enter the heart of the labyrinth, where the Crown of Ages sits in a golden, glowing chamber. The air is heavy with ancient magic, and you can feel the immense power radiating from the crown. This is what you’ve been searching for, the ultimate prize—but it comes with risks.",
+    choices: [
+        { text: "Take the crown and use its power.", nextPage: 113 },
+        { text: "Leave the crown behind, sensing it may not be worth the danger.", nextPage: 114 },
+        { text: "Use the gemstone or the Key of Eternity to investigate further before making a decision.", nextPage: 115 }
+    ]
+},
+
+113: {
+    text: "You take the Crown of Ages and place it on your head. Immediately, you feel a surge of energy coursing through your body. Your vision expands, and time seems to slow around you. You realize that with the crown, you can control not only the labyrinth but also time itself. However, you also sense the weight of eternity pressing down on you—wearing the crown means you will live forever, but at a great cost.",
+    choices: [
+        { text: "Ending 21: You become the immortal ruler of the labyrinth, but you are trapped within its walls for all time. Though you possess ultimate power, you will never again leave the labyrinth.", nextPage: 'end_21' }
+    ]
+},
+
+114: {
+    text: "You stare at the Crown of Ages, its golden glow tempting you to take it, but you resist. You’ve come this far, but the cost of such power is too high. With a deep breath, you turn away from the crown, understanding that some treasures are not meant to be claimed.",
+    choices: [
+        { text: "Ending 22: You leave the labyrinth safely, having resisted the temptation of the Crown of Ages. While you don’t possess ultimate power, you walk away with wisdom and the satisfaction of surviving the labyrinth’s trials.", nextPage: 'end_22' }
+    ]
+},
+
+115: {
+    text: "Before making your decision, you hold up the gemstone, and its light reveals hidden markings all over the chamber. These markings tell the story of those who came before you, those who sought the Crown of Ages but were consumed by its power. The Key of Eternity also glows faintly in your hand, as if pointing toward a secret exit hidden behind the walls.",
+    choices: [
+        { text: "Use the Key of Eternity to open the secret exit and leave the crown behind.", nextPage: 116 },
+        { text: "Take the Crown of Ages despite the warnings, believing you can control its power.", nextPage: 113 },
+        { text: "Use both the Key of Eternity and the gemstone to attempt to unlock the crown’s true power without being trapped.", nextPage: 117 }
+    ]
+},
+
+116: {
+    text: "Using the Key of Eternity, you find the hidden exit and slip through it. The labyrinth shifts around you, no longer trying to trap you, as if the key allows you safe passage. You leave the Crown of Ages behind, knowing that some things are better left untouched.",
+    choices: [
+        { text: "Ending 23: You escape the labyrinth with the Key of Eternity and your life intact. While the Crown of Ages remains in the labyrinth, you are free to explore the world, perhaps unlocking new secrets with the key you now possess.", nextPage: 'end_23' }
+    ]
+},
+
+117: {
+    text: "You use both the Key of Eternity and the gemstone, and as you do, the Crown of Ages transforms before your eyes. The crown no longer radiates the ominous, overwhelming power it once did. Instead, it glows with a gentle, balanced light. The markings around the room shift, revealing that only by understanding both the key and the gemstone’s role could the crown’s true nature be unlocked—power that is controlled, not controlling.",
+    choices: [
+        { text: "Ending 24: You unlock the true potential of the Crown of Ages, a power based on wisdom rather than control. You leave the labyrinth as its first true victor, equipped with knowledge and the tools for further discovery. The labyrinth no longer holds sway over you, and you are free to chart your own destiny.", nextPage: 'end_24' }
+    ]
+},
+
+  
 'end_1': {
     text: "You leave the labyrinth, believing the dangers are too great. The Crown of Ages remains lost, and your adventure ends here.",
     choices: []
